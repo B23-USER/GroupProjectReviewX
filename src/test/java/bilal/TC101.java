@@ -11,5 +11,7 @@ public class TC101 {
         Faker faker = new Faker();
 
         System.out.println("Recruiter phone number = " + faker.phoneNumber().cellPhone());
+
+        //branch protection test
     }
 }
